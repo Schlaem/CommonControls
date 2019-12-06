@@ -4,9 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestWpfApp"
+        xmlns:sliderslib="clr-namespace:SlidersLib;assembly=SlidersLib"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
 
-    </Grid>
+    <TabControl>
+        <TabItem Visibility="Collapsed">
+            <sliderslib:DoubleThumbSlider HorizontalAlignment="Center" VerticalAlignment="Center" Width="400"
+                                          Minimum="-100" Maximum="100" FirstSliderValue="-50" SecondSliderValue="50" />
+        </TabItem>
+    </TabControl>
 </Window>

@@ -6,4 +6,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoCompletionTextBoxLib\AutoCompletionTextBoxLib.csproj" />
+    <ProjectReference Include="..\SlidersLib\SlidersLib.csproj" />
+  </ItemGroup>
+
 </Project>
