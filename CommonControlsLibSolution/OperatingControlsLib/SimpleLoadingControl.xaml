@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="OperatingControlsLib.SimpleLoadingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OperatingControlsLib"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="200">
+
+    <Canvas>
+        <!-- First quadrant -->
+        <Ellipse Canvas.Left="90" Canvas.Bottom="180" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+        <Ellipse Canvas.Left="153.64" Canvas.Bottom="153.64" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+
+        <!-- Second quadrant -->
+        <Ellipse Canvas.Left="180" Canvas.Bottom="90" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+        <Ellipse Canvas.Left="153.64" Canvas.Bottom="26.36" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+
+        <!-- Third quadrant -->
+        <Ellipse Canvas.Left="90" Canvas.Bottom="0" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+        <Ellipse Canvas.Left="26.36" Canvas.Bottom="26.36" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+
+        <!-- Fourth quadrant -->
+        <Ellipse Canvas.Left="0" Canvas.Bottom="90" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+        <Ellipse Canvas.Left="26.63" Canvas.Bottom="153.64" Height="20" Width="20" StrokeThickness="0" Fill="Green" />
+    </Canvas>
+</UserControl>
